@@ -53,7 +53,7 @@ public class matrix {
 		boolean condition = false;
 		
 		while(condition == false) {
-		System.out.println("What is the matrix dimension");
+		System.out.println("What is the matrix dimension (type 50)");
 		dim = inputDevice.nextInt();
 		if(dim == 50) condition = true;
 		else System.out.println("Sorry... try again");
